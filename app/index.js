@@ -124,6 +124,7 @@ import { useRouter } from "expo-router";
                 <TouchableOpacity
                   className="flex justify-center w-[335px] h-[128px] rounded-2xl bg-red-500 relative overflow-visible"
                   style={{ backgroundColor: item.backgroundColor }}
+                  onPress={()=>navigation.navigate('/test')}
                 >
                   <Image
                     source={require("../assets/donut.png")}
@@ -141,6 +142,7 @@ import { useRouter } from "expo-router";
               )}
             />
           </View>
+
   
           <FlatList
             horizontal={true}

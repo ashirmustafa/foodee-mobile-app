@@ -56,7 +56,7 @@ const AddToCart = () => {
                     className="rounded-2xl p-5 bg-lightRedBackground w-[44px] h-[44px] flex items-center justify-center"
                     onPress={() => navigation.navigate('/')}
                 >
-                    <FontAwesomeIcon icon={faClose} color="#F28482" size={22} />
+                    <FontAwesomeIcon icon={faClose} color="#FFFFFF" size={22} />
                 </TouchableOpacity>
             </View>
 
@@ -107,7 +107,7 @@ const AddToCart = () => {
                             </View>
                             <View className="flex-row items-center justify-end py-5  rounded-3xl w-[174px] ml-auto">
                                 <TouchableOpacity className="rounded-full bg-lightRedBackground p-2 ">
-                                    <FontAwesomeIcon icon={faMinus} color="#F28482" size={16} />
+                                    <FontAwesomeIcon icon={faMinus} color="#FFFFFF" size={16} />
                                 </TouchableOpacity>
                                 <Text className="text-xl mx-5">5</Text>
                                 <TouchableOpacity className="rounded-full bg-lightRed p-2">
