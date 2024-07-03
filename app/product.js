@@ -129,7 +129,7 @@ const Product = () => {
                             <FontAwesomeIcon icon={faAdd} color="#FFFFFF" size={16} />
                         </TouchableOpacity>
                     </View>
-                    <TouchableOpacity className="items-center justify-center bg-lightRed py-5 rounded-3xl w-[174px]">
+                    <TouchableOpacity className="items-center justify-center bg-lightRed py-5 rounded-3xl w-[174px]" onPress={()=>navigation.navigate('/addToCart')}>
                         <Text className="text-xl text-white">Add to cart</Text>
                         <Text className="text-xl text-white font-bold">$27.45</Text>
                     </TouchableOpacity>

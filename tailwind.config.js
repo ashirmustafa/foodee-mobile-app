@@ -10,7 +10,7 @@ module.exports = {
         darkGray: '#E6E6E6',
         placeHolderColor: '#3D405B',
         shadow: '0px 8px 20px 0px #F2CC8F66',
-        lightRedBackground: '#F5CAC3',
+        lightRedBackground: '#F28482',
         greenBackground: '#84A59D',
       }
     },
